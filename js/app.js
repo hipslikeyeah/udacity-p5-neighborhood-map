@@ -317,7 +317,7 @@ var ViewModel = function() {
 				// if there is an error, set error status and scroll user to the info
 				self.connectionError(true);
 				self.scrollTo('#info-container');
-			})
+			});
 		}
 		// if place has already fetched data
 		else {
